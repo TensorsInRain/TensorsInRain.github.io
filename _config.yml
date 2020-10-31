@@ -1,2 +1,7 @@
 theme: jekyll-theme-slate
 title: Tensors In Rain
+description: Machine Learning, One Drop At A Time
+comments: true
+provider: "facebook"
+baseurl: ""
+url: http://tensorsinrain.github.io
