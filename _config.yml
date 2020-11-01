@@ -5,4 +5,4 @@ comments: true
 provider: "facebook"
 baseurl: ""
 url: http://tensorsinrain.github.io
-avatar: "TiR.png"
+logo: "TiR.png"
