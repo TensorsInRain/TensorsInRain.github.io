@@ -6,9 +6,13 @@ November 2, 2020
 
 ## What is a confusion matrix?
 
+A confusion matrix is a way to evaluate the performance of a classifier by visualizing how many times the classifier correctly predicted a classification and how many times a classification was incorrectly predicted.
+
 
 ## Confusion Matrix for a Binary Classifier
-A binary classifier is a classifier that sorts the data into two classes.
+A binary classifier is a classifier that sorts the data into two classes.  Let's consider data that has the following two labels: "True" and "False"
+
+![Binary Confusion Matrix](Images/ConfusionMatrix_Binary.png)
 
 
 ## Examples
