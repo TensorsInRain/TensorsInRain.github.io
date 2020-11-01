@@ -68,6 +68,8 @@ Code Output:
  [ 5 10]]
 ```
 
+![Example 1 Confusion Matrix](Images/ConfusionMatrix_Example1_1.png)
+
 ```python
 print("Number of zeros predicted as zeros: ",  CM[0][0])
 print("Number of zeros predicted as ones: ", CM[0][1])
