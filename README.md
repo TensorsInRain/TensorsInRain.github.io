@@ -1,7 +1,5 @@
 {% include ga.html %}
 
-“Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain. Time to die.”
-
 # What's New
 
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Resume](Resume.pdf) -- [Copyright](copyright.md)
