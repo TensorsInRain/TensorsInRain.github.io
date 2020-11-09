@@ -242,7 +242,7 @@ CONCLUSION
 
 
 # Copyright Notice
-Linear Regression: A Simple Introduction to Machine Learning
+Confusion Matrix: A Measure of Classifier Performance
 Copyright (C) 2020  Julie Hartley
 
 This program is free software: you can redistribute it and/or modify
