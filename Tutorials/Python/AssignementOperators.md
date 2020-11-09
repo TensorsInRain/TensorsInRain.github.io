@@ -1,8 +1,8 @@
 # Python Tutorial: Changing the Value of a Variable using Assignment Operators
 
-March 21, 2020
+November 9, 2020
 
-Lets say we have a variable that is equal to a number, but we want to change that variable by doing some type of math to it.  Using the skills you currently have, here is how you would do it.
+Lets say we have a variable that is equal to a number, but we want to change that variable by doing some type of math to it. The most obvious way to accomplish this task is:
 
 ``` python
 # initialize the variable a to be the number 5
@@ -23,7 +23,7 @@ Output:
 5
 10
 ```
-Python offers a cleaner way of doing the exact same thing using _assignment operators_.  If I want to add a number to an already existing variable I can use the addition assignement operator:
+Python offers a cleaner way of doing the exact same thing using _assignment operators_.  If you want to add a number to an already existing variable you can use the addition assignement operator:
 
 ``` python
 a = 5
@@ -75,3 +75,5 @@ Output:
 6
 3.0
 ```
+
+Assignment operators can be very useful and are pretty common so being familiar with them will help you in your ability to read Python code and to write your own.
