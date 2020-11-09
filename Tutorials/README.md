@@ -6,6 +6,12 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
+## Python Tutorial: Changing the Value of a Variable using Assignment Operators
+
+November 9, 2020
+
+An introduction to assignment operators.  [See more.](Python/AssignmentOperators.md)
+
 ## Python Tutorial: If Statements
 
 March 19, 2020
