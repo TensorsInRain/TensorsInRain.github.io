@@ -1,6 +1,10 @@
 # Python Tutorial: Changing the Value of a Variable using Assignment Operators
 
+[Home](../../README.md) -- [Tutorials](../../Tutorials/README.md) -- [Blog](../../Blog/README.md) -- [About Me](../../aboutme.md) -- [Contact](../../contactme.md) -- [Resume](../../Resume.pdf) -- [Copyright](../../copyright.md)
+
 November 9, 2020
+
+Go through this tutorial interactively on [Colab](https://colab.research.google.com/drive/1bC4FSL3vaDw7dOX1kM0MRrNYBE0hG7PE?usp=sharing).  Once you follow the link click "Open in Playground" (this does not save your work) or download as an ".ipynb" file and upload it to your own Google Drive if you want to keep your progress.
 
 Lets say we have a variable that is equal to a number, but we want to change that variable by doing some type of math to it. The most obvious way to accomplish this task is:
 
