@@ -6,13 +6,24 @@ November 2, 2020
 
 ## What is a confusion matrix?
 
-A confusion matrix is a way to evaluate the performance of a classifier by visualizing how many times the classifier correctly predicted a classification and how many times a classification was incorrectly predicted.
+A confusion matrix is a way to evaluate the performance of a classifier by visualizing how many times the classifier correctly predicted a classification and how many times a classification was incorrectly predicted.  It uses a matrix to show the how a classifier classifies each input.  It is useful to determine how many times the classifier is correct but also what types of mistakes the classifier is most likely to make.
 
 
 ## Confusion Matrix for a Binary Classifier
-A binary classifier is a classifier that sorts the data into two classes.  Let's consider data that has the following two labels: "True" and "False"
+A binary classifier is a classifier that sorts the data into two classes.  Let's consider data that has the following two labels: "True" and "False".  The confusion matrix for this binary classifier would then look like this:
 
 ![Binary Confusion Matrix](Images/ConfusionMatrix_Binary.png)
+
+The correct classifications are on the diagonal of the matrix and the incorrect classifications are on the off diagonal of the matrix.  This means that the total number of correct classifications are the sum of the two numbers on the diagonal and the total number of incorrect classifications is the sum of the two numbers on the off diagonal.
+
+## Confusion Matrix for a Multi-Class Classifier
+
+A multi-class classifier is simply a classifier that sorts data into more than two classes.  As far as the confusion matrix goes, it follows the same format, but it will be larger.  Let's consider a multi-class classifier that classifiers data into four classes: Class One, Class Two, Class Three, and Class Four.  The confusion matrix for this classifier will have the following form.
+
+![Multi-Class Confusion Matrix](Images/ConfusionMatrix_Multiclass.png)
+
+Just like with the binary classifier the diagonal elements represent the correct classifications and the off diagonal elements represent the incorrect classifications.  In addition the total number of correct classfications is still the sum of all elements on the diagonal and the total number of incorrect classifications is the sum of all of the off diagonal elements.
+
 
 
 ## Examples
@@ -68,7 +79,11 @@ Code Output:
  [ 5 10]]
 ```
 
+In this form it is not entirely clear what the matrix means.  Let's take the confusion matrix from the binary classifier shown above and rewrite the labels in terms of this data set.
+
 ![Example 1 Confusion Matrix](Images/ConfusionMatrix_Example1_1.png)
+
+Now it is more clear what each of the numbers in the matrix means.  Ideally we would only have numbers on the diagonal and zeros on the off-diagonal elements, but that does not seem to be the case with this model.  For the zeros, 11 of the 15 true zeros are correctly classified as zeros, but four are classified as ones.  For the ones, 10 of the ones were correctly classified, but 5 were classified as zeros.  Let's explicitly print what each of the numbers in the matrix mean to be more clear.
 
 ```python
 print("Number of zeros predicted as zeros: ",  CM[0][0])
@@ -88,6 +103,8 @@ Number of ones predicted as zeros 5
 Number of ones predicted as ones 10
 ```
 
+Based on the confusion matrix the total number of correct classifications will be the sum of all of the numbers on the diagonal and the number of incorrect classifications will be the sum of all other numbers in the matrix.  Let's print out these numbers for our model to see how it performs.
+
 ```python
 print("Total number of correct predictions: ", CM[0][0] + CM[1][1])
 print("Total number of incorrect predictins: ", CM[0][1] + CM[1][0])
@@ -98,8 +115,13 @@ Total number of correct predictions:  21
 Total number of incorrect predictins:  9
 ```
 
-```
+The data set contains 30 numbers so 21/30 classifications were correct and 9/30 classifications were incorrect.  That means that we have a classification accuracy of 70%.  At the beginning of the example it seemed like there was only one misclassification, but now we can see there are 9.  This is a much more accurate way to investigate the accuracy of a classification algorithm.
+
+Finally, let's investigate a common method for displaying confusion matrices, which is to use the matplotlib function matshow.  This function takes a matrix and displays it as a grid of squares.  Each square corresponds to one entry in the matrix.  The color of each square corresponds to the value of the matrix element.  For a small confusion matrix like this using matshow is a little bit overkill, but as we will see in the next example, it can be very beneficial for a multi-class classification problem.
+
+```python
 import matplotlib.pyplot as plt
+
 plt.matshow(CM, cmap=plt.cm.plasma)
 plt.colorbar()
 
@@ -107,7 +129,70 @@ plt.xticks([0, 1])
 plt.yticks([0, 1])
 ```
 
+## Example 2: MNIST Data Set
 
+
+```python
+print(__doc__)
+
+# Author: Gael Varoquaux <gael dot varoquaux at normalesup dot org>
+# License: BSD 3 clause
+
+# Standard scientific Python imports
+import matplotlib.pyplot as plt
+
+# Import datasets, classifiers and performance metrics
+from sklearn import datasets, svm, metrics
+from sklearn.model_selection import train_test_split
+
+# The digits dataset
+digits = datasets.load_digits()
+
+# The data that we are interested in is made of 8x8 images of digits, let's
+# have a look at the first 4 images, stored in the `images` attribute of the
+# dataset.  If we were working from image files, we could load them using
+# matplotlib.pyplot.imread.  Note that each image must have the same size. For these
+# images, we know which digit they represent: it is given in the 'target' of
+# the dataset.
+_, axes = plt.subplots(2, 4)
+images_and_labels = list(zip(digits.images, digits.target))
+for ax, (image, label) in zip(axes[0, :], images_and_labels[:4]):
+    ax.set_axis_off()
+    ax.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
+    ax.set_title('Training: %i' % label)
+
+# To apply a classifier on this data, we need to flatten the image, to
+# turn the data in a (samples, feature) matrix:
+n_samples = len(digits.images)
+data = digits.images.reshape((n_samples, -1))
+
+# Create a classifier: a support vector classifier
+classifier = svm.SVC(gamma=0.001)
+
+# Split data into train and test subsets
+X_train, X_test, y_train, y_test = train_test_split(
+    data, digits.target, test_size=0.5, shuffle=False)
+
+# We learn the digits on the first half of the digits
+classifier.fit(X_train, y_train)
+
+# Now predict the value of the digit on the second half:
+predicted = classifier.predict(X_test)
+
+images_and_predictions = list(zip(digits.images[n_samples // 2:], predicted))
+for ax, (image, prediction) in zip(axes[1, :], images_and_predictions[:4]):
+    ax.set_axis_off()
+    ax.imshow(image, cmap=plt.cm.gray_r, interpolation='nearest')
+    ax.set_title('Prediction: %i' % prediction)
+
+print("Classification report for classifier %s:\n%s\n"
+      % (classifier, metrics.classification_report(y_test, predicted)))
+disp = metrics.plot_confusion_matrix(classifier, X_test, y_test)
+disp.figure_.suptitle("Confusion Matrix")
+print("Confusion matrix:\n%s" % disp.confusion_matrix)
+
+plt.show()
+```
 
 ## References
 
