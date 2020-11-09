@@ -236,6 +236,10 @@ CONCLUSION
 
 ## References/Further Reading
 
+1. https://wiki.pathmind.com/accuracy-precision-recall-f1
+2. https://machinelearningmastery.com/confusion-matrix-machine-learning/
+3. Hands-on Machine Learning with Sci-Kit Learn and Tensorflow by Aurélien Géron
+
 
 # Copyright Notice
 Linear Regression: A Simple Introduction to Machine Learning
