@@ -135,7 +135,7 @@ plt.yticks([0, 1])
 
 The MNIST data set is a fairly famous data set in machine learning that consists of images of handwritten numbers, 0-9.  It is commonly used as an example case for image classification algorithms.  Below is a sampling of entries in the MNIST dataset and you can read more about the MNIST data set in the image source link.
 
-![MNIST Data](Images/ConfusionMatrix/MNIST.png)
+![MNIST Data](Images/ConfusionMatrix_MNIST.png)
 [Image Source](https://en.wikipedia.org/wiki/MNIST_database)
 
 When using the MNIST data set a classifier is trained to look at one of the images and determine what digit is written in the image.  The algorithm then classifies the image into a class based on what digit it determines it contains.  This means that this is a multi-class classification problem with ten classes (digits range from 0 to 9).
