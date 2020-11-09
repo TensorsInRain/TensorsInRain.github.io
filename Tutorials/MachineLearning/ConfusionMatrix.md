@@ -18,7 +18,7 @@ The correct classifications are on the diagonal of the matrix and the incorrect 
 
 ## Confusion Matrix for a Multi-Class Classifier
 
-A multi-class classifier is simply a classifier that sorts data into more than two classes.  As far as the confusion matrix goes, it follows the same format, but it will be larger.  Let's consider a multi-class classifier that classifiers data into four classes: Class One, Class Two, Class Three, and Class Four.  The confusion matrix for this classifier will have the following form.
+A multi-class classifier is simply a classifier that sorts data into more than two classes.  As far as the confusion matrix goes, it follows the same format as the binary classifier, but it will be larger.  Let's consider a multi-class classifier that classifiers data into four classes: Class One, Class Two, Class Three, and Class Four.  The confusion matrix for this classifier will have the following form.
 
 ![Multi-Class Confusion Matrix](Images/ConfusionMatrix_Multiclass.png)
 
@@ -129,11 +129,18 @@ plt.xticks([0, 1])
 plt.yticks([0, 1])
 ```
 
+![Example 1 Confusion Matrix](Images/ConfusionMatrix_Example1_2.png)
+
 ## Example 2: MNIST Data Set
 
-The MNIST data set is a fairly famous data set in machine learning that consists of images of handwritten numbers.  It is commonly used as an example case for image classification algorithms.
+The MNIST data set is a fairly famous data set in machine learning that consists of images of handwritten numbers, 0-9.  It is commonly used as an example case for image classification algorithms.  Below is a sampling of entries in the MNIST dataset and you can read more about the MNIST data set in the image source link.
 
-The following code is drawn from the Scikit-Learn website and can be found [here](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html).  
+![MNIST Data](Images/ConfusionMatrix/MNIST.png)
+[Image Source](https://en.wikipedia.org/wiki/MNIST_database)
+
+When using the MNIST data set a classifier is trained to look at one of the images and determine what digit is written in the image.  The algorithm then classifies the image into a class based on what digit it determines it contains.  This means that this is a multi-class classification problem with ten classes (digits range from 0 to 9).
+
+The following code is drawn from the Scikit-Learn website and can be found [here](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html).  The details of the code are not important for this example, but I will quickly explain what it does.  The following code trains a multi-class classifier, called a support vector classifier, on the MNIST data, and then uses the trained classifier to classify other members of the data set.  It then produces a confusion matrix to analysis the performance of the classifier on the test data.
 
 ```python
 print(__doc__)
@@ -196,6 +203,36 @@ print("Confusion matrix:\n%s" % disp.confusion_matrix)
 
 plt.show()
 ```
+
+Among other information, the above code prints a confusion matrix for the trained classifier.  Since there are ten hand written numbers (0-9), the confusion matrix is a 10x10 matrix.  Though this is much larger than the example of a multi-class confusion matrix shown above, it displays its data in the same way, where the diagonal terms are the correct classifications and the off diagonal terms are the incorrect classifications.
+
+```
+Confusion matrix:
+[[87  0  0  0  1  0  0  0  0  0]
+ [ 0 88  1  0  0  0  0  0  1  1]
+ [ 0  0 85  1  0  0  0  0  0  0]
+ [ 0  0  0 79  0  3  0  4  5  0]
+ [ 0  0  0  0 88  0  0  0  0  4]
+ [ 0  0  0  0  0 88  1  0  0  2]
+ [ 0  1  0  0  0  0 90  0  0  0]
+ [ 0  0  0  0  0  1  0 88  0  0]
+ [ 0  0  0  0  0  0  0  0 88  0]
+ [ 0  0  0  1  0  1  0  0  0 90]]
+```
+
+Especially with a matrix this large it can be difficult to draw conclusions from just the numbers.  Luckily the above code also plots the confusion matrix with a colored grid, like in Example 1.  Below is the visualized confusion matrix produced by the code.
+
+![Example 2 Confusion Matrix](Images/ConfusionMatrix_Example2_1.png)
+
+From the provided color bar we can see that the squares which are yellow correspond to a large number of classifications but the squares that are blue-purple correspond to a lower number of classifications.  Luckily, the classifier in the code is well trained and the yellow squares (large number of classifications) are only on the diagonal while the blue-purple squares (small number of classifications) are all on the off diagonal.
+
+Ideally all of the off diagonal elements of the confusion matrix would be zero.  While this example is close to ideal, we can see that there are still some misclassifications.  Lets take a look at a couple of those misclassifications.  For example, it seems that the largest group of misclassifications occured when 5 threes were classified as eights (fourth row, ninth column).  This seems like a reasonable misclassification though because threes and eights can be written to look very similar.  Another misclassification seemed to mistake 4 fours as nines (fifth row, tenth column).  This again is an understandable mistake considering how close nines and fours can look at times.
+
+While a classifier will likely never be 100% accurate, an analysis of the misclassifications can help improve the model.  With the model shown above there were very few misclassifications and the numbers that were misclassified were done so one understandable ways (fours mistaken as nines for instance).  This seems to indicate that the model is well trained.  For a model that was not well trained, we would see much larger off diagonal elements, and there would be groups misclassifications that would not seem understandable (for example a large number of threes classified as fours).
+
+CONCLUSION
+
+
 
 ## References/Further Reading
 
