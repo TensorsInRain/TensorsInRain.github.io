@@ -10,7 +10,7 @@
 
 November 9, 2020
 
-An introduction to assignment operators.  [See more.](Python/AssignmentOperators.md)
+An introduction to assignment operators.  [See more.](Python/AssignementOperators.md)
 
 ## Python Tutorial: If Statements
 
