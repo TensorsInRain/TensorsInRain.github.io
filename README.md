@@ -5,6 +5,12 @@
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Resume](Resume.pdf) -- [Copyright](copyright.md)
 
 
+## Python Tutorial: Changing the Value of a Variable using Assignment Operators
+
+November 9, 2020
+
+An introduction to assignment operators.  [See more.](Tutorials/Python/AssignementOperators.md)
+
 ## My Favorite Machine Learning Resources (in no particular order)
 
 September 6, 2020
