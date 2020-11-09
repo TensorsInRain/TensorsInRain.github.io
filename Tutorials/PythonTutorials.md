@@ -9,6 +9,7 @@
 * [Basic Math in Python](Python/BasicMath.md)
 * [User Input](Python/UserInput.md)
 * [If Statements](Python/IfStatement.md)
+* [Changing the Value of a Variable using Assignment Operators](Python/AssignmentOperators.md)
 
 ## Advanced Python
 
