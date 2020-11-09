@@ -131,6 +131,9 @@ plt.yticks([0, 1])
 
 ## Example 2: MNIST Data Set
 
+The MNIST data set is a fairly famous data set in machine learning that consists of images of handwritten numbers.  It is commonly used as an example case for image classification algorithms.
+
+The following code is drawn from the Scikit-Learn website and can be found [here](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html).  
 
 ```python
 print(__doc__)
@@ -194,7 +197,7 @@ print("Confusion matrix:\n%s" % disp.confusion_matrix)
 plt.show()
 ```
 
-## References
+## References/Further Reading
 
 
 # Copyright Notice
