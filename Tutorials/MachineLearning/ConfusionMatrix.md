@@ -2,7 +2,7 @@
 
 [Home](../../README.md) -- [Tutorials](../../Tutorials/README.md) -- [Blog](../../Blog/README.md) -- [About Me](../../aboutme.md) -- [Contact](../../contactme.md) -- [Resume](../../Resume.pdf) -- [Copyright](../../copyright.md)
 
-November 2, 2020
+November 9, 2020
 
 ## What is a confusion matrix?
 
