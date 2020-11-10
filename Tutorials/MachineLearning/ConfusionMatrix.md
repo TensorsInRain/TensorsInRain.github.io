@@ -14,7 +14,7 @@ A binary classifier is a classifier that sorts the data into two classes.  Let's
 
 ![Binary Confusion Matrix](Images/ConfusionMatrix_Binary.png)
 
-The correct classifications are on the diagonal of the matrix and the incorrect classifications are on the off diagonal of the matrix.  This means that the total number of correct classifications are the sum of the two numbers on the diagonal and the total number of incorrect classifications is the sum of the two numbers on the off diagonal.
+The correct classifications are on the diagonal of the matrix and the incorrect classifications are on the off diagonal of the matrix.  This means that the total number of correct classifications are the sum of the two numbers on the diagonal and the total number of incorrect classifications is the sum of the two numbers on the off diagonals.
 
 ## Confusion Matrix for a Multi-Class Classifier
 
@@ -243,6 +243,7 @@ CONCLUSION
 
 # Copyright Notice
 Confusion Matrix: A Measure of Classifier Performance
+
 Copyright (C) 2020  Julie Hartley
 
 This program is free software: you can redistribute it and/or modify
