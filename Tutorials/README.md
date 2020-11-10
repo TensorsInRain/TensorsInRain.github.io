@@ -6,6 +6,12 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
+## Machine Learning Tutorial: Confusion Matrix: A Measure of Classifier Performance
+
+November 9, 2020
+
+An introduction to confusion matrices as a metric for determining classifier performance.  [See more.](MachineLearning/ConfusionMatrix.md)
+
 ## Python Tutorial: Changing the Value of a Variable using Assignment Operators
 
 November 9, 2020
