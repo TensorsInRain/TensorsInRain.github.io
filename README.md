@@ -5,6 +5,12 @@
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Resume](Resume.pdf) -- [Copyright](copyright.md)
 
 
+## Machine Learning Tutorial: Confusion Matrix: A Measure of Classifier Performance
+
+November 9, 2020
+
+An introduction to confusion matrices as a metric for determining classifier performance.  [See more.](Tutorials/MachineLearning/ConfusionMatrix.md)
+
 ## Python Tutorial: Changing the Value of a Variable using Assignment Operators
 
 November 9, 2020
