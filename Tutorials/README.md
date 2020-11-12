@@ -10,7 +10,7 @@
 
 November 11, 2020
 
-A brief introduction into the PEP8 style guide for consistent and readable codes.  [See more.](Python.PEP8.md)
+A brief introduction into the PEP8 style guide for consistent and readable codes.  [See more.](Python/PEP8.md)
 
 ## Machine Learning Tutorial: Confusion Matrix: A Measure of Classifier Performance
 
