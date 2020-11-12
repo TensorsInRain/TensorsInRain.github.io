@@ -2,7 +2,7 @@
 [Home](../README.md) -- [Tutorials](README.md) -- [Blog](../Blog/README.md) -- [About Me](../aboutme.md) -- [Contact](../contactme.md) -- [Resume](../Resume.pdf) -- [Copyright](../copyright.md)
 
 ## Tutorial Categories
-[Python Tutorials](PythonTutorials.md) -- [Machine Learning Tutorials](MLTutorials.md) -- [C++ Tutorials](C++.md) -- [Physics Tutorials](Physics.md) -- [Other Tutorials](Other.md) 
+[Python](PythonTutorials.md) -- [Machine Learning](MLTutorials.md) -- [C++](C++.md) -- [Physics](Physics.md) -- [Other](Other.md) 
 
 ----------------------------------------------------------------------------------------------------------------------
 
