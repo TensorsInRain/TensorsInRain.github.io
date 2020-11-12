@@ -5,6 +5,13 @@
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Resume](Resume.pdf) -- [Copyright](copyright.md)
 
 
+## Python Tutorial: PEP8 Style Guide
+
+November 11, 2020
+
+A brief introduction into the PEP8 style guide for consistent and readable codes.  [See more.](Tutorials/Python/PEP8.md)
+
+
 ## Machine Learning Tutorial: Confusion Matrix: A Measure of Classifier Performance
 
 November 9, 2020
