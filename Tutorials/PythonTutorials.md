@@ -10,6 +10,7 @@
 * [User Input](Python/UserInput.md)
 * [If Statements](Python/IfStatement.md)
 * [Changing the Value of a Variable using Assignment Operators](Python/AssignementOperators.md)
+* [PEP8 Style Guide](Python/PEP8.md)
 
 ## Advanced Python
 
