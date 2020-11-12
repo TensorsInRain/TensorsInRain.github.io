@@ -46,7 +46,9 @@ Also note that multiple lines of code can be under an if statement, as long as a
 
 
 ## Copyright Notice
+
 Python Tutorial: If Statements
+
 Copyright (C) 2020  Julie Hartley
 
 This program is free software: you can redistribute it and/or modify
