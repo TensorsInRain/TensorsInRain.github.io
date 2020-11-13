@@ -4,6 +4,11 @@
 
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Resume](Resume.pdf) -- [Copyright](copyright.md)
 
+## Python Tutorial: Basic Booleans
+
+November 12, 2020
+
+An overview of the boolean data type in Python.  [See more.](Tutorials/Python/BasicBooleans.md)
 
 ## Python Tutorial: PEP8 Style Guide
 
