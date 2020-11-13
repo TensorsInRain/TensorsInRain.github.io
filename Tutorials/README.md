@@ -6,6 +6,12 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
+## Python Tutorial: Basic Booleans
+
+November 12, 2020
+
+An overview of the boolean data type in Python.  [See more.](Python/BasicBooleans.md)
+
 ## Python Tutorial: PEP8 Style Guide
 
 November 11, 2020
