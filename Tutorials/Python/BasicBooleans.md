@@ -2,7 +2,10 @@
 
 [Home](../../README.md) -- [Tutorials](../../Tutorials/README.md) -- [Blog](../../Blog/README.md) -- [About Me](../../aboutme.md) -- [Contact](../../contactme.md) -- [Resume](../../Resume.pdf) -- [Copyright](../../copyright.md)
 
-March 21, 2020
+November 12, 2020
+
+Go through this tutorial interactively on [Colab](https://colab.research.google.com/drive/1ZikNmNpqwd6rxcVCuLj_LUwqT8KwZc3D?usp=sharing).  Once you follow the link click "Open in Playground" (this does not save your work) or download as an ".ipynb" file and upload it to your own Google Drive if you want to keep your progress.
+
 
 So far in Python we have used three different types of data: whole numbers (known as ints), numbers with a decimal place (known as floats), and strings.  In basic Python there is another type of data known as a boolean.  A boolean can take on only two values: `True` or `False` (note that they have to start with a capital letter).
 
