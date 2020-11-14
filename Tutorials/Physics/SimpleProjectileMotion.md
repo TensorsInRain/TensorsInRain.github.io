@@ -6,7 +6,7 @@ A common problem in an introductory mechanics class involves simple projectile m
 
 ## Problem Set-up
 
-An object with some mass, m, is launched with some initial speed, v_i, and at some angle, \theta.
+An object with some mass, m, is launched with some initial speed, v$$_i$$, and at some angle, $$\theta$$.
 
 ## Main Assumptions
 
