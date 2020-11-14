@@ -2,7 +2,7 @@
 
 September 6, 2020
 
-[Home](../../../README.md) -- [Tutorials](../../../Tutorials/README.md) -- [Blog](../../README.md) -- [About Me](../../../aboutme.md) -- [Contact](../../../contactme.md) -- [Resume](../../../Resume.pdf) -- [Copyright](../../../copyright.md)
+[Home](../../../README.md) -- [Tutorials](../../../Tutorials/README.md) -- [Blog](../../README.md) -- [Textbook Summaries](../../../TextbookSummaries/README.md) -- [About Me](../../../aboutme.md) -- [Contact](../../../contactme.md) -- [Copyright](../../../copyright.md)
 
 ![Books](TitleImage.jpg)
 
