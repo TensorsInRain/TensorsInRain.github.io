@@ -2,7 +2,7 @@
 ## Classical Mechanics by John Taylor
 
 
-[Home](../README.md) -- [Tutorials](README.md) -- [Blog](../Blog/README.md) -- [About Me](../aboutme.md) -- [Contact](../contactme.md) -- [Resume](../Resume.pdf) -- [Copyright](../copyright.md)
+[Home](../README.md) -- [Tutorials](README.md) -- [Blog](../Blog/README.md) -- [Textbook Summaries](README.md) -- [About Me](../aboutme.md) -- [Contact](../contactme.md) -- [Copyright](../copyright.md)
 
 ## 1.1: Classical Mechanics
 
