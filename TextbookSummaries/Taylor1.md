@@ -11,3 +11,9 @@
 * The field of classical mechanics has become popular in recent years with the advent of chaos theory.
 
 ## 1.2: Space and Time
+
+* Newton's three laws are formulated in terms of four crucial underlying concepts: space, time, mass, and force
+
+### Space
+
+* Every point P in three-dimensional space can be described with a position vector **r** given some origin O.  The position vector specifies the distance and direction P is from O.
