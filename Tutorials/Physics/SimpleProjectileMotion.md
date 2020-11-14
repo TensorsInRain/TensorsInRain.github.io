@@ -10,7 +10,7 @@ An object with some mass, m, is launched with some initial speed, v_i, and at so
 
 * Motion only takes place in two dimensions: x (horizontal) and y (vertical).
 * There is not air resistance or any other forces acting on the object besides gravity.
-* The object is near Earth's surface so gravitation accleration can be represented as (0, -9.81) m/s^2
+* The object is near Earth's surface so gravitation acceleration can be represented as (0, -9.81) m/s^2.
 * The object is a point mass particle, meaning that it has mass but no size.
 * All measurements and answers will be in SI units.
 * Unless told otherwise, the object's initial position is (0, 0)m.
@@ -20,19 +20,54 @@ An object with some mass, m, is launched with some initial speed, v_i, and at so
 
 ### Short Answer
 
-In vector form: **v_i** = (v_i*cos(\theta), v_i*sin(\theta)) (remember that bold quantities are vectors and non-bold quantities are scalars)
+In vector form: __vi__ = (vicos(\theta), visin(\theta)) (remember that bold quantities are vectors and non-bold quantities are scalars)
 
-In component form: v_i,x = v_i*cos(\theta); v_i,y = v_i*sin(\theta)
+In component form: vi,x = vicos(\theta); vi,y = visin(\theta)
 
 ## Component Equations for Position, Velocity, and Acceleration
 
 ### Short Answer
 
+#### Position
+
+rx = rx,i + vicos(\theta)t
+
+ry = ry,i + vicos(\theta)y
+
+Typically rxi=ryi=0m, unless otherwise stated in the problem.
+
+#### Velcity
+
+vx = vicos(\theta)
+
+vy = visin(\theta) - 9.81t
+
+#### Acceleration
+
+ax = 0 m/s^2
+
+ay = -g
+
 ## Vector Equations for Position, Velocity, and Acceleration
 
-### Short Ansqe
+### Short Answer
 
-## Time to Maximum Heighy
+#### Position
+
+__r__ = __ri__ + __vi__ t + 0.5 __a__ t^2 = (rxi, ryi) + (vicos(\theta), visin(\theta))t + 0.5(0, -g, 0)t^2
+
+Typically this is __ri__ = (0, 0)m, unless the problem statement tells otherwise
+
+#### Velocity
+
+__v__ = __vi__ + __a__ t = (vicos(\theta), visin(\theta)) + (0, -g, 0)t
+
+#### Acceleration
+
+__a__ = (0, -g, 0)
+
+
+## Time to Maximum Height
 
 ## Total Time
 
@@ -41,5 +76,15 @@ In component form: v_i,x = v_i*cos(\theta); v_i,y = v_i*sin(\theta)
 ## Maximum Height
 
 ## Example 1: Ball Kicked from Ground Level
+
+A ball with a mass of 0.1kg is kicked with an initial speed of 15m/s at an angle of 32 degrees.
+
+a. Find the total time the ball will be in the air.
+
+b. Find the maximum height the ball obtains.
+
+c. Calculate where the ball will land.
+
+#### Part a
 
 ## Example 2: Ball Thrown from a Building
