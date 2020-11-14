@@ -24,6 +24,8 @@ In vector form: **v_i** = (v_i*cos(\theta), v_i*sin(\theta)) (remember that bold
 
 In component form: v_i,x = v_i*cos(\theta); v_i,y = v_i*sin(\theta)
 
+$$\forall x \in R$$
+
 ## Component Equations for Position, Velocity, and Acceleration
 
 ### Short Answer
