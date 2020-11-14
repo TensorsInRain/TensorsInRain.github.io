@@ -35,21 +35,21 @@ In component form: v$$_{i,x}$$ = v$$_i$$cos($$\theta$$); v$$_{i,y}$$ = v$$_i$$si
 
 r$$_x$$ = r$$+{x,i}$$ + v$$_i$$cos($$\theta$$)t
 
-r$$_y$$ = r$$_{y,i}$$ + v$$_i$$cos($$\theta$$)t
+r$$_y$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)t - 0.5gt$$^3$$
 
 Typically r$$_{x,i}$$=r$$_{y,i}$$=0m, unless otherwise stated in the problem.
 
 #### Velocity
 
-vx = vicos(\theta)
+v$$_x$$ = v$$_i$$cos($$\theta$$)
 
-vy = visin(\theta) - 9.81t
+v$$_y$$ = v$$_i$$sin($$\theta$$) - gt
 
 #### Acceleration
 
-ax = 0 m/s^2
+a$$_x$$ = 0
 
-ay = -g
+a$$_y$$ = -g
 
 ## Vector Equations for Position, Velocity, and Acceleration
 
