@@ -2,7 +2,7 @@
 
 # What's New
 
-[Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Resume](Resume.pdf) -- [Copyright](copyright.md)
+[Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [Textbook Summaries](TextbookSummaries/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Copyright](copyright.md)
 
 ## Python Tutorial: Basic Booleans
 
