@@ -17,3 +17,6 @@
 ### Space
 
 * Every point P in three-dimensional space can be described with a position vector **r** given some origin O.  The position vector specifies the distance and direction P is from O.
+
+* One of the most common ways to represent a three-dimension vector in space:
+
