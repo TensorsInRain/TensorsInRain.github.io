@@ -57,13 +57,13 @@ a$$_y$$ = -g
 
 #### Position
 
-**r** = **r$$_i$$** + **v$$_i$$**t + 0.5**a***t$$^2$$ = (rxi, ryi) + (vicos(\theta), visin(\theta))t + 0.5(0, -g, 0)t^2
+**r** = **r$$_i$$** + **v$$_i$$**t + 0.5**a**t$$^2$$ = (r$$_{x,i}$$, r$$_{y,i}$$) + (v$$_i$$cos($$\theta$$), v$$_i$$sin($$\theta$$))t + 0.5(0, -g, 0)t$$^2$$
 
-Typically this is __ri__ = (0, 0)m, unless the problem statement tells otherwise
+Typically this is **r$$_i$$** = (0, 0)m, unless the problem statement tells otherwise
 
 #### Velocity
 
-__v__ = __vi__ + __a__ t = (vicos(\theta), visin(\theta)) + (0, -g, 0)t
+**v** = **v$$_i$$** + **a**t = (v$$_i$$cos($$\theta$$), v$$_i$$sin($$\theta$$)) + (0, -g, 0)t
 
 #### Acceleration
 
@@ -71,6 +71,10 @@ __a__ = (0, -g, 0)
 
 
 ## Time to Maximum Height
+
+### Short Answer
+
+$$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
 
 ## Total Time
 
