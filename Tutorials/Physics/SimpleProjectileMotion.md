@@ -22,9 +22,9 @@ An object with some mass, m, is launched with some initial speed, v$$_i$$, and a
 
 ### Short Answer
 
-In vector form: **v_i** = (v_i*cos(\theta), v_i*sin(\theta)) (remember that bold quantities are vectors and non-bold quantities are scalars)
+In vector form: **v$$_i$$** = (v$$_i$$*cos($$\theta$$), v$$_i$$*sin($$\theta$$)) (remember that bold quantities are vectors and non-bold quantities are scalars)
 
-In component form: v_i,x = v_i*cos(\theta); v_i,y = v_i*sin(\theta)
+In component form: v$$_{i,x}$$ = v$$_i$$cos($$\theta$$); v_i,y = v_i*sin(\theta)
 
 $$\forall x \in R$$
 
