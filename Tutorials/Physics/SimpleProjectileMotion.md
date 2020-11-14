@@ -1,10 +1,12 @@
+{% include head.html %}
+
 # Simple Projectile Motion With Kinematics
 
 A common problem in an introductory mechanics class involves simple projectile motion.  This type of problem is usually introduced fairly early in the course.  Simple projectile motion problems deal with the motion of an object given an initial speed and launch angle.  This tutorial will go over main calculations from simple projectile motion problems using kinematic equations, as well as a couple of example problems.
 
 ## Problem Set-up
 
-An object with some mass, m, is launched with some initial speed, v_i, and at some angle, \theta.
+An object with some mass, m, is launched with some initial speed, v$$_i$$, and at some angle, $$\theta$$.
 
 ## Main Assumptions
 
@@ -20,9 +22,10 @@ An object with some mass, m, is launched with some initial speed, v_i, and at so
 
 ### Short Answer
 
-In vector form: __vi__ = (vicos(\theta), visin(\theta)) (remember that bold quantities are vectors and non-bold quantities are scalars)
+In vector form: $$\textbf{v_i}$$ = (v$$_i$$cos($$\theta$$), v$$_i$$sin($$\theta$$)) (remember that bold quantities are vectors and non-bold quantities are scalars)
 
-In component form: vi,x = vicos(\theta); vi,y = visin(\theta)
+In component form: v$$_{i,x}$$ = v$$_i$$cos($$\theta$$); v$$_{i,y}$$ = v$$_i$$sin($$\theta$$)
+
 
 ## Component Equations for Position, Velocity, and Acceleration
 
@@ -30,13 +33,13 @@ In component form: vi,x = vicos(\theta); vi,y = visin(\theta)
 
 #### Position
 
-rx = rx,i + vicos(\theta)t
+r$$_x$$ = r$$+{x,i}$$ + v$$_i$$cos($$\theta$$)t
 
-ry = ry,i + vicos(\theta)y
+r$$_y$$ = r$$_{y,i}$$ + v$$_i$$cos($$\theta$$)t
 
-Typically rxi=ryi=0m, unless otherwise stated in the problem.
+Typically r$$_{x,i}$$=r$$_{y,i}$$=0m, unless otherwise stated in the problem.
 
-#### Velcity
+#### Velocity
 
 vx = vicos(\theta)
 

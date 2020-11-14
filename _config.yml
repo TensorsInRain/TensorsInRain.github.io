@@ -6,4 +6,5 @@ comments: true
 provider: "facebook"
 baseurl: ""
 url: http://tensorsinrain.github.io
+markdown: kramdown
 logo: "TiR_Small.png"
