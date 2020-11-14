@@ -57,7 +57,7 @@ a$$_y$$ = -g
 
 #### Position
 
-__r__ = __ri__ + __vi__ t + 0.5 __a__ t^2 = (rxi, ryi) + (vicos(\theta), visin(\theta))t + 0.5(0, -g, 0)t^2
+$$\textbf{r}$$ = $$\textbf{r_i} + $$\textbf{v_i}$$t + 0.5$$\textbf{a}$$t^2 = (rxi, ryi) + (vicos(\theta), visin(\theta))t + 0.5(0, -g, 0)t^2
 
 Typically this is __ri__ = (0, 0)m, unless the problem statement tells otherwise
 
