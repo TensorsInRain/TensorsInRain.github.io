@@ -1,3 +1,5 @@
+{% include head.html %}
+
 # Simple Projectile Motion With Kinematics
 
 A common problem in an introductory mechanics class involves simple projectile motion.  This type of problem is usually introduced fairly early in the course.  Simple projectile motion problems deal with the motion of an object given an initial speed and launch angle.  This tutorial will go over main calculations from simple projectile motion problems using kinematic equations, as well as a couple of example problems.
