@@ -1,5 +1,5 @@
 # Tutorials
-[Home](../README.md) -- [Tutorials](README.md) -- [Blog](../Blog/README.md) -- [About Me](../aboutme.md) -- [Contact](../contactme.md) -- [Resume](../Resume.pdf) -- [Copyright](../copyright.md)
+[Home](../README.md) -- [Tutorials](README.md) -- [Blog](../Blog/README.md) -- [Textbook Summaries](../TextbookSummarues/README.md) -- [About Me](../aboutme.md) -- [Contact](../contactme.md) -- [Copyright](../copyright.md)
 
 ## Tutorial Categories
 [Python](PythonTutorials.md) -- [Machine Learning](MLTutorials.md) -- [C++](C++.md) -- [Physics](Physics.md) -- [Math](Math.md) -- [Other](Other.md) 
