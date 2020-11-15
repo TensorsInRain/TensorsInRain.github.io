@@ -35,7 +35,7 @@ In component form: v$$_{i,x}$$ = v$$_i$$cos($$\theta$$); v$$_{i,y}$$ = v$$_i$$si
 
 r$$_x$$ = r$$+{x,i}$$ + v$$_i$$cos($$\theta$$)t
 
-r$$_y$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)t - 0.5gt$$^3$$
+r$$_y$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)t - 0.5gt$$^2$$
 
 Typically r$$_{x,i}$$=r$$_{y,i}$$=0m, unless otherwise stated in the problem.
 
@@ -74,9 +74,7 @@ __a__ = (0, -g, 0)
 
 ### Short Answer
 
-```markdown
 $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
-```
 
 Note that for an object which starts and ends at ground level t$$_{max\ y}$$ = t$$_{1/2}$$.
 
@@ -88,11 +86,36 @@ v$$_y$$ = v$$_i$$sin($$\theta$$) - gt$$_{max\ y}$$ = 0
 
 $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
 
+## Maximum Height
+
+### Short Answer
+
+r$$_{y,max}$$ = $$\frac{v_i^2sin^2(\theta)}{2g}$$
+
+### Long Answer
+
+The maximum height (y position) occurs at the time found above.  Plug that time into the component equation for the y position to get the maximum height.
+
+r$$_y$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)t - 0.5gt$$^2$$
+
+$$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
+
+r$$_{y,max}$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)$$\frac{v_isin(\theta)}{g}$$ - 0.5g($$\frac{v_isin(\theta)}{g}$$)$$^2
+
+r$$_{y,max}$$ = $$\frac{v_i^2sin^2(\theta)}{2g}$$
+
+## Y Velocity the Instance Before the Object Hits the Ground
+
+### Short Answer
+
+v$$_{y,f}$$ = $$\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})}$$
+
+Note that if the object leaves the ground at the same y position that it hits the ground then v$$_{y,f}$$ = v$$_{y,i}$$ = v$$_i$$sin($$\theta$$)
+
+
 ## Total Time
 
 ## Total Range
-
-## Maximum Height
 
 ## Example 1: Ball Kicked from Ground Level
 
