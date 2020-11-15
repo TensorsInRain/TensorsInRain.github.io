@@ -74,7 +74,9 @@ __a__ = (0, -g, 0)
 
 ### Short Answer
 
+```markdown
 $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
+```
 
 Note that for an object which starts and ends at ground level t$$_{max\ y}$$ = t$$_{1/2}$$.
 
@@ -82,7 +84,7 @@ Note that for an object which starts and ends at ground level t$$_{max\ y}$$ = t
 
 The object will reach its maximum y position (i.e. the top of the arc) when the y component of velocity is zero.  To find this time, take the equation for the y component of velocity (defined above) and set it equal to zero.
 
-v$$_y$$ = v$$_i$$sin($$\theta$$) - gt$$_{max\ y} = 0
+v$$_y$$ = v$$_i$$sin($$\theta$$) - gt$$_{max\ y}$$ = 0
 
 $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
 
