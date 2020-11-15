@@ -82,7 +82,7 @@ Note that for an object which starts and ends at ground level t$$_{max\ y}$$ = t
 
 The object will reach its maximum y position (i.e. the top of the arc) when the y component of velocity is zero.  To find this time, take the equation for the y component of velocity (defined above) and set it equal to zero.
 
-v$$_y$$ = v$$_i$$sin($$\theta$$) - gt$$_{max\ y}$$ = 0
+$$v_y = v_isin(\theta) - gt_{max\ y} = 0$$
 
 $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
 
@@ -96,11 +96,11 @@ r$$_{y,max}$$ = $$\frac{v_i^2sin^2(\theta)}{2g}$$
 
 The maximum height (y position) occurs at the time found above.  Plug that time into the component equation for the y position to get the maximum height.
 
-r$$_y$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)t - 0.5gt$$^2$$
+$$r_y = r_{y,i} + v_isin(\theta)t - 0.5gt^2$$
 
 $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
 
-r$$_{y,max}$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)$$\frac{v_isin(\theta)}{g}$$ - 0.5g($$\frac{v_isin(\theta)}{g}$$)$$^2
+$$r_{y,max} = r_{y,i} + v_isin(\theta)\frac{v_isin(\theta)}{g} - 0.5g(\frac{v_isin(\theta)}{g})^2$$
 
 r$$_{y,max}$$ = $$\frac{v_i^2sin^2(\theta)}{2g}$$
 
