@@ -12,6 +12,7 @@
 * [Changing the Value of a Variable using Assignment Operators](Python/AssignementOperators.md)
 * [PEP8 Style Guide](Python/PEP8.md)
 * [Basic Booleans](Python/BasicBooleans.md)
+* [Introduction to Lists](Python/Lists.md)
 
 ## Advanced Python
 
