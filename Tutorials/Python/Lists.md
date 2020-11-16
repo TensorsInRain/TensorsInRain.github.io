@@ -1,6 +1,10 @@
-# Python Tutorial: Lists
+# Python Tutorial: Introduction to Lists
 
-March 21, 2020
+[Home](../../README.md) -- [Tutorials](../../Tutorials/README.md) -- [Blog](../../Blog/README.md) -- [About Me](../../aboutme.md) -- [Contact](../../contactme.md) -- [Resume](../../Resume.pdf) -- [Copyright](../../copyright.md)
+
+November 16, 2020
+
+Go through this tutorial interactively on [Colab](https://colab.research.google.com/drive/1gZ_7fUJP9H_Eh1W0bA9cYDjMLLWttqbF?usp=sharing).  Once you follow the link click "Open in Playground" (this does not save your work) or download as an ".ipynb" file and upload it to your own Google Drive if you want to keep your progress.
 
 In Python a _list_ is a collection of variables or data that have been grouped together.  You can make a list in Python by surrounding your data with square brackets (`[]`) and separating each entry with a comma.  For example, if I wanted to make a list of programming languages, I could do the following:
 
@@ -65,3 +69,21 @@ list_of_variables = [my_name, my_age]
 mixed_list = [34, 'cup', 587, 'plate']
 ```
 
+## Copyright Notice
+
+Python Tutorial: Introduction to Lists
+
+Copyright (C) 2020  Julie Hartley
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.

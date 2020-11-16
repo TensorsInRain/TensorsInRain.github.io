@@ -4,6 +4,12 @@
 
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [Textbook Summaries](TextbookSummaries/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Copyright](copyright.md)
 
+## Python Tutorial: Introduction to Lists
+
+November 16, 2020
+
+A simple and basic introduction to the lists, a Python data structure.  [See more.](Tutorials/Python/Lists.md)
+
 ## Python Tutorial: Basic Booleans
 
 November 12, 2020

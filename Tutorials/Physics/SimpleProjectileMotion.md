@@ -102,7 +102,7 @@ $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
 
 $$r_{y,max} = r_{y,i} + v_isin(\theta)\frac{v_isin(\theta)}{g} - 0.5g(\frac{v_isin(\theta)}{g})^2$$
 
-r$$_{y,max}$$ = $$\frac{v_i^2sin^2(\theta)}{2g}$$
+$$r_{y,max} = r_{y,i} + \frac{v_i^2sin^2(\theta)}{2g}$$
 
 ## Y Velocity the Instance Before the Object Hits the Ground
 
@@ -110,7 +110,7 @@ r$$_{y,max}$$ = $$\frac{v_i^2sin^2(\theta)}{2g}$$
 
 v$$_{y,f}$$ = $$\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})}$$
 
-Note that if the object leaves the ground at the same y position that it hits the ground then v$$_{y,f}$$ = v$$_{y,i}$$ = v$$_i$$sin($$\theta$$)
+Note that if the object leaves the ground at the same y position that it hits the ground then v$$_{y,f}$$ = v$$_{y,i}$$ = v$$_i$$sin($$\theta$$).
 
 
 ## Total Time

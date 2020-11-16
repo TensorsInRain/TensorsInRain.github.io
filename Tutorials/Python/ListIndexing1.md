@@ -1,6 +1,9 @@
-# Python Tutorial: List Indexing Part 1
+# Python Tutorial: Forward List Indexing
 
-March 21, 2020
+[Home](../../README.md) -- [Tutorials](../../Tutorials/README.md) -- [Blog](../../Blog/README.md) -- [About Me](../../aboutme.md) -- [Contact](../../contactme.md) -- [Resume](../../Resume.pdf) -- [Copyright](../../copyright.md)
+
+November 16, 2020
+
 
 In the section above you learned how to show the entire contents of a list using a print statement, but what if you only want to print one element of the list?  Python has a way to do this and its called list indexing.
 
@@ -60,3 +63,22 @@ Output:
 ```
 cow
 ```
+
+## Copyright Notice
+
+Python Tutorial: Forward List Indexing
+
+Copyright (C) 2020  Julie Hartley
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
