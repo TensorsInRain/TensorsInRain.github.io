@@ -4,6 +4,7 @@
 
 November 16, 2020
 
+Go through this tutorial interactively on [Colab](https://colab.research.google.com/drive/1PGYJkpOQx0GUfWrTwP3J3rn4lZNVxbmN?usp=sharing).  Once you follow the link click "Open in Playground" (this does not save your work) or download as an ".ipynb" file and upload it to your own Google Drive if you want to keep your progress.
 
 In the section above you learned how to show the entire contents of a list using a print statement, but what if you only want to print one element of the list?  Python has a way to do this and its called list indexing.
 

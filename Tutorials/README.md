@@ -6,6 +6,12 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
+## Python Tutorial: Forward List Indexing
+
+Novemver 16, 2020
+
+An explanation of forward list indexing for lists in Python.  [See more.](Python/ListIndexing1.md)
+
 ## Python Tutorial: Introduction to Lists
 
 November 16, 2020

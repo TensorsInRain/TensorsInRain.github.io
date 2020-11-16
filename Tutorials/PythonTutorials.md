@@ -13,6 +13,7 @@
 * [PEP8 Style Guide](Python/PEP8.md)
 * [Basic Booleans](Python/BasicBooleans.md)
 * [Introduction to Lists](Python/Lists.md)
+* [Foward List Indexing](Python/ListIndexing1.md)
 
 ## Advanced Python
 

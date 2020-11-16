@@ -4,6 +4,12 @@
 
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [Textbook Summaries](TextbookSummaries/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Copyright](copyright.md)
 
+## Python Tutorial: Forward List Indexing
+
+Novemver 16, 2020
+
+An explanation of forward list indexing for lists in Python.  [See more.](Tutorials/Python/ListIndexing1.md)
+
 ## Python Tutorial: Introduction to Lists
 
 November 16, 2020
