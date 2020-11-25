@@ -33,7 +33,7 @@ y$$_2$$ = ax$$_2^2$$ + bx$$_2$$ + c
 		.
 
 		.
-		
+
 y$$_{n-1}$$ = ax$$_{n-1}^2$$ + bx$$_{n-1}$$ + c
 
 A system of equations like this can easily be rewritten to be represented by matrix-vector multiplication, which is how the output of a linear regression algorithm is formatted.  The output of a linear regression algorithm, represented by y with a caret on top (called a hat),  can simply be written as:
@@ -96,7 +96,7 @@ X = np.matrix([first_col, second_col, third_col])
 X = np.transpose(X)
 ```
 
-The columns are ones, x, and x$$^$$2 as shown in the design matrix equation derived previously.  After creating the matrix, it needs to be transposed to be in the proper form.
+The columns are ones, x, and x$$^2$$ as shown in the design matrix equation derived previously.  After creating the matrix, it needs to be transposed to be in the proper form.
 
 Finally, using the equation for the optimized parameters that was derived earlier, we can find the optimal parameters a, b, and c to fit the data set:
 
