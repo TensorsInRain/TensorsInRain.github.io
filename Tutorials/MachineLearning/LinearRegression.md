@@ -27,9 +27,13 @@ y$$_0$$ = ax$$_0^2$$ + bx$$_0$$ + c
 y$$_1$$ = ax$$_1^2$$ + bx$$_1$$ + c
 
 y$$_2$$ = ax$$_2^2$$ + bx$$_2$$ + c
+
 		.
+
 		.
+
 		.
+		
 y$$_{n-1}$$ = ax$$_{n-1}^2$$ + bx$$_{n-1}$$ + c
 
 A system of equations like this can easily be rewritten to be represented by matrix-vector multiplication, which is how the output of a linear regression algorithm is formatted.  The output of a linear regression algorithm, represented by y with a caret on top (called a hat),  can simply be written as:
