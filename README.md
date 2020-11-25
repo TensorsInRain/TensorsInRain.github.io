@@ -4,6 +4,12 @@
 
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [Textbook Summaries](TextbookSummaries/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Copyright](copyright.md)
 
+## Machine Learning Tutorial: Linear Regression
+
+November 25, 2020
+
+A look into one of the most basic machine learning algorithms. [See more.](Tutorials/MachineLearning/LinearRegression.md)
+
 ## Python Tutorial: Forward List Indexing
 
 Novemver 16, 2020

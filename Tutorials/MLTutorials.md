@@ -4,6 +4,7 @@
 
 ## Introductory
 * [Confusion Matrix: A Measure of Classifier Performance](MachineLearning/ConfusionMatrix.md)
+* [Linear Regression: A Simple Introduction to Machine Learning](MachineLearning/LinearRegression.md)
 
 ## Advanced
 

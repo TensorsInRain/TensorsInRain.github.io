@@ -6,6 +6,12 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
+## Machine Learning Tutorial: Linear Regression
+
+November 25, 2020
+
+A look into one of the most basic machine learning algorithms. [See more.](MachineLearning/LinearRegression.md)
+
 ## Python Tutorial: Forward List Indexing
 
 Novemver 16, 2020
