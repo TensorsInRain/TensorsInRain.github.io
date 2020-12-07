@@ -14,7 +14,7 @@ This sounds like a scary step but for introductory physics classes all it means 
 
 #### 2. Draw a picture
 
-If a picture is not provided with the problem, draw one.  Even a rough sketch is better than no picture at all.  When drawing the pictures think about all forces that could be acting on the object and draw those in as well.
+If a picture is not provided with the problem, draw one.  Even a rough sketch is better than no picture at all.  When drawing the pictures think about all forces that could be acting on the object and draw those in as well.  Also add in arrows representing other vectors you know (displacement, velocity, etc.).
 
 #### 3. List any assumptions that you have to make to simplify the problem.
 
@@ -40,11 +40,46 @@ For this problem, let'ss choose the starting time to be the time the box starts 
 
 3. List any assumptions that you have to make to simplify the problem.
 
+* We are assuming that the only forces on the box are gravity and friction.  Therefore there are no other forces like air resistance.
+* The box and ramp are located on Earth (this is not directly said).
+* The box starts from rest and is given no initial velocity from a push.
+* We do not need to take into account static friction.
+* The third dimension, z, is not important for this problem.
+* Motion only occurs in the x direction.
+
 4. Write down any knowns, separated by the direction in which they are relevant
+
+The only knowns given in the problem are the mass of the box, the length of the ramp, the angle of the ramp, and the coefficient of friction.  However, from the drawing and our assumptions we can fill out a few more knowns.  We known that the starting position of the box is the origin, the box starts from rest, and the motion occurs only in the x direction (i.e. r$$_y$$ = v$$_y$$ = a$$_y$$ = 0).
+
+|                x                   |                y                 | No direction|
+|------------------------------------|----------------------------------|-------------|
+|length of ramp, d$$_x$$ = 3m        |velocity, v$$_y$$ = 0m/s          |mass, m = 40kg|
+|initial velocity, v$$_{i,x}$$ = 0m/s|acceleration, a$__y$$ = 0m/s$$^2$$|coefficient of friction, $$\mu_k$$ = 0.25|
+|initial position, r$$_{i,x}$$ = 0m  |position, r$$_{y}$$ = 0m          |ramp angle, $$\theta$$ = 30 degrees|
 
 5. Write down any unknowns you need to solve for, separated by the direction in which they are relevant
 
+The unknown we eventually need to solve for is the final velocity in the x direction, but there are some other unknowns that could be helpful in solving for that.
+
+|              x                 |               y                |
+|--------------------------------|--------------------------------|
+|final velocity, v$$_{f,x}$$     |force of gravity, F$$_{grav,y}$$|
+|force of friction, F$$_{fric}$$ |normal force, F$$_N$$           |
+|force of gravity, F$$_{grav,x}$$|                                |
+|acceleration, a$$_x$$           |                                |
+
 6. Using the knowns and unknows as a guide, write down an equations that may be helpful to solve the problem
+
+* Since we are looking for final velocity there are two kinematic equations that could give us that:
+$$v_f^2 = v_i^2 + 2ad$$
+$$v_f = v_i + at$$
+
+* A lot of the knowns are forces, but the equations for those are known:
+$$F_{net} = ma$$_{net}$$
+$$F_{fric} = \mu_kF_N$$
+$$F_{grav,x} = mgsin(\theta)$$
+$$F_{grav,y} = mgcos(theta)$$
+$$F_N = -F_{grav,y}$$
 
 7. Combine the equations and known values to solve for the unknowns you need
 
@@ -98,9 +133,11 @@ So now that we have the acceleration in the x-direction, we can plug it back int
 
 $$v_{f,x}^2 = (6m)a_x = (6m)g(sin(\theta) - \mu_kcos(\theta)) = (6m)(9.81m/s^2)(sin(30) - 0.25cos(30))$$
 
-$$v_{f,x}^2 = $$
+$$v_{f,x}^2 = 16.686 m$$^2$$/s$$^2$$$$
 
-$$v_{f,x} = $$ 
+$$v_{f,x} = 4.084 m/s$$
+
+So as a check to see if our answer is correct, the units are correct for velocity and 4.084 m/s corresponds to about 9 mph, which is relatively slow but seems achievable for a box on a rather long ramp with a rather low coefficient of friction.  So numerically and unit wise the answer checks out! 
 
 This is a rather long winded solution, but you would not write all of this down typically when solving a problem.  Here is what a solution to this problem would typically look like:
 

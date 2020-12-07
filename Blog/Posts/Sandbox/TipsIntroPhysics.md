@@ -10,11 +10,13 @@ Always do you problems in SI units (meters, kilograms, seconds, etc.).  If you p
 
 ### Quantities with different units can not be set equal to each other
 
+You can not set values with different units equal to each other.  This is a big mistake that a lot of people in introductory physics classes make.  
+
 ### You can usually figure out what to do purely through looking at the units
 
 ### Check to see if your answer makes sense.
 
-After you solve a problem and get to the final, numerical answer.  If you are solving for the mass of a ball but you get an answer on the order of 100kg, then you probably did something wrong in your calculations.
+After you solve a problem and get to the final, numerical answer, check to see i the answer makes sense.  If you are solving for the mass of a ball but you get an answer on the order of 100kg, then you probably did something wrong in your calculations.  Or if you are solving for time and get a negative number then thay probably is not correct.
 
 ### Solve equations in variables, only plug in numbers at the very end
 

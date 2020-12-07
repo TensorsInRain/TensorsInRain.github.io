@@ -30,11 +30,11 @@ In component form: v$$_{i,x}$$ = v$$_i$$cos($$\theta$$); v$$_{i,y}$$ = v$$_i$$si
 
 ### Long Answer
 
-Any two dimensional vector in the xy-coordinate plane, **a** = (a$$_x$$, a$$_y$$), can be written as follows:
+Any two dimensional vector in the xy-coordinate plane, **b** = (b$$_x$$, b$$_y$$), can be written as follows:
 
-$$ \textbf{a} = (acos(\theta), asin(\theta))$$
+$$ \textbf{b} = (bcos(\theta), bsin(\theta))$$
 
-where a is the magnitude of the vector **a** (a = $$\sqrt(a_x^2 + a_y^2))$$) and $$\theta$$ is the angle the vector makes with the x axis.
+where b is the magnitude of the vector **b** (b = $$\sqrt(b_x^2 + b_y^2))$$) and $$\theta$$ is the angle the vector makes with the x axis.
 
 Therefore given the speed (which is the magnitude of the velocity vector) and the angle the ball is kicked at (the angle between the x axis and the velocity vector), then the initial velocity of the ball can be written as $$\textbf{v_i}$$ = (v$$_i$$cos($$\theta$$), v$$_i$$sin($$\theta$$)) in vector form or v$$_{i,x}$$ = v$$_i$$cos($$\theta$$); v$$_{i,y}$$ = v$$_i$$sin($$\theta$$) in component form.
 
@@ -44,7 +44,7 @@ Therefore given the speed (which is the magnitude of the velocity vector) and th
 
 #### Position
 
-r$$_x$$ = r$$+{x,i}$$ + v$$_i$$cos($$\theta$$)t
+r$$_x$$ = r$$_{x,i}$$ + v$$_i$$cos($$\theta$$)t
 
 r$$_y$$ = r$$_{y,i}$$ + v$$_i$$sin($$\theta$$)t - 0.5gt$$^2$$
 
@@ -61,6 +61,17 @@ v$$_y$$ = v$$_i$$sin($$\theta$$) - gt
 a$$_x$$ = 0
 
 a$$_y$$ = -g
+
+### Long Answer
+
+#### Position
+
+The movement of any object in one dimension can be described as a function of time using this equation:
+$$r = r_i + v_it + 0.5at^2$$
+
+where r$$_i$$ is the intial position of the object, v$$_i$$ is the initial velocity of the object, a is the acceleration of the object (assumed to be constant), t is the time that has elapsed since the object started moving and r is the position of the object at time t.
+
+
 
 ## Vector Equations for Position, Velocity, and Acceleration
 
