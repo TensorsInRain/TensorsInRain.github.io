@@ -153,11 +153,11 @@ $$\textbf{a} = (0, -g)$$
 
 $$t_{max\ y} = \frac{v_isin(\theta)}{g}$$
 
-Note that for an object which starts and ends at ground level t$$_{max\ y}$$ = t$$_{1/2}$$.
+Note that for an object which starts and ends at ground level t$$_{max\ y}$$ = t$$_{1/2}$$ (which is one half of the total flight time).
 
 ### Long Answer 
 
-The object will reach its maximum y position (i.e. the top of the arc) when the y component of velocity is zero.  To find this time, take the equation for the y component of velocity (defined above) and set it equal to zero.
+The object will reach its maximum y position (i.e. the top of the arc) when the y component of velocity is zero.  To find this time, take the equation for the y component of velocity (defined above) and set it equal to zero.  Then simply solve for t:
 
 $$v_y = v_isin(\theta) - gt_{max\ y} = 0$$
 
