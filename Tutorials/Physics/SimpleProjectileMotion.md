@@ -230,7 +230,7 @@ $$t_{tot} = \frac{\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})} + v_isin(\th
 
 ### Short Answer
 
-$$r_{f,x} = r_{i,x} + v+icos(\theta)\frac{\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})} + v_isin(\theta)}{g}$$
+$$r_{f,x} = r_{i,x} + v_icos(\theta)\frac{\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})} + v_isin(\theta)}{g}$$
 
 Note that for an object landing at the same y position it was launched from 
 
@@ -341,11 +341,31 @@ $$r_{x,max\ y} = \frac{v_i^2cos(\theta)sin(\theta)}{g}$$
 
 $$r_{x,max\ y} = \frac{(10m/s)^2cos(45)sin(45)}{9.81m/s^2} = 5.09m$$
 
-Finally, combining these results into a vector:
-
-**r$$_{max\ y}** = (32.5m, 5.09m)
+Finally, combining these results into a vector:  **r$$_{max\ y}** = (32.5m, 5.09m)
 
 #### Part c
 
+First, we know that the x velocity of the ball does not change, so v$$_{x,i}$$ = v$$_{x,f}$$ = v$$_i$$cos($$\theta$$) = 10cos(45) = 7.07m/s.
 
+Next, when the ball hits the ground, we know that its y position is zero, because we set the zero point of the y axis to be the ground.  Therefore r$$_{y,f}$$ = 0.  Then, we have an equation for the velocity in the y direction the instant before the ball hits the ground. Using the equation from above and plugging in the given values:
+
+v$$_{y,f} = -\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})} = -\sqrt{(10m/s)^2sin^2(45) - 2g(0m - 30m)} = -25.2m/s$$
+
+Finally, combining these results into one vector yields:  **v$$_f$$** = (7.07m/s, -25.2m/s).
+
+Note: You could also solve this problem by solving for the total flight time and then plugging this value into the the equation for velocity as a function of time in vector form.
+
+#### Part d
+
+First, when the ball hits the ground, we know that its y position is zero, because we set the zero point of the y axis to be the ground.  Therefore r$$_{y,f}$$ = 0.
+
+Next, we have an equation for the total range of the projectile, which is the final x position if we assume the projectile's initial x position is 0m.  Using the equation from above and plugging in the given values:
+
+$$r_{x,f} = r_{i,x} + v_icos(\theta)\frac{\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})} + v_isin(\theta)}{g} = 0m + (10m/s)cos(45)\frac{\sqrt{(10m/s)^2sin^2(45) - 2g(0m - 30m)} + (10m/s)sin(45)}{g}$$
+
+$$r_{x,f} = 465.4m$$
+
+Finally, combining these results into one vector yields: **r$$_f$$** = (465.4m, 0m).
+
+Note: You could also solve this problem by solving for the total flight time and then plugging this value into the the equation for position as a function of time in vector form.
 
