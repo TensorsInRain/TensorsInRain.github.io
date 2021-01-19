@@ -92,7 +92,7 @@ $$a_x = 0$$
 
 In the y direction there is an initial position, represented by r$$_{y,i}$$, and an initial velocity, which can be represented as v$$_{y,i}$$ = v$$_i$$sin($$\theta$$).  Since the gravitational force acts in the y direction the acceleration in the y direction due to this force can be written as a$$_y$$ = -9.81m/s$$^2$$, or a$$_y$$ = -g, where g is the constant 9.81m/s$$^2$$.  Sometimes you will see this written as a$$_y$$ = g, where the negative sign is taken inside of into the g variable.  Using this information we can write the following equations for the position, velocity, and acceleration of the projectile in the y direction:
 
-$$r_y = r$$_{y,i} + v_isin(\theta)t -0.5gt^2$$
+$$r_y = r_{y,i} + v_isin(\theta)t -0.5gt^2$$
 
 $$v_y = v_isin(\theta) - gt$$
 
@@ -278,13 +278,13 @@ and plugging in the given values:
 
 r$$_{y,max}$$ = $$0m + \frac{(15m/s)^2sin^2(32)}{2(9.81m/s^2)} = 3.220m$$
 
-At t=0.810s the y position of the ball is r$_y$ = 3.220m, the maximum y height the ball will obtain.
+At t=0.810s the y position of the ball is r$$_y$$ = 3.220m, the maximum y height the ball will obtain.
 
 #### Part c
 
 Using the fact that the total time is just double time time needed to get to the maximum y position, then:
 
-$$t_{tot} = 2t_{max\ y} = 1.62s
+$$t_{tot} = 2t_{max\ y} = 1.62s$$
 
 Note that this equation only works for a ball that is launched and lands at the same same y position.
 
@@ -315,7 +315,7 @@ d. As a vector, calculate the position of the ball when it hits the ground.
 
 Using the equation from above:
 
-$$\textbf{v_i} = (v_icos(\theta), v_isin(\theta))
+$$\textbf{v_i} = (v_icos(\theta), v_isin(\theta))$$
 
 And plugging in the given values:
 
@@ -341,7 +341,7 @@ $$r_{x,max\ y} = \frac{v_i^2cos(\theta)sin(\theta)}{g}$$
 
 $$r_{x,max\ y} = \frac{(10m/s)^2cos(45)sin(45)}{9.81m/s^2} = 5.09m$$
 
-Finally, combining these results into a vector:  **r$$_{max\ y}** = (32.5m, 5.09m)
+Finally, combining these results into a vector:  **r$$_{max\ y}$$** = (32.5m, 5.09m)
 
 #### Part c
 
