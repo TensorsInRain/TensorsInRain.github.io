@@ -2,6 +2,8 @@
 
 # Simple Projectile Motion With Kinematics
 
+[Home](../../README.md) -- [Tutorials](../../Tutorials/README.md) -- [Blog](../../Blog/README.md) -- [About Me](../../aboutme.md) -- [Contact](../../contactme.md) -- [Resume](../../Resume.pdf) -- [Copyright](../../copyright.md)
+
 A common type of question in an introductory mechanics class involves solving a  simple projectile motion problem with kinematic equations.  This type of problem is usually introduced fairly early in the course.  Simple projectile motion problems deal with the motion of an object given an initial speed and launch angle.  This tutorial will go over main calculations from simple projectile motion problems using kinematic equations, as well as a couple of example problems.
 
 ## Problem Set-up
