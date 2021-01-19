@@ -4,6 +4,12 @@
 
 [Home](README.md) -- [Tutorials](Tutorials/README.md) -- [Blog](Blog/README.md) -- [Textbook Summaries](TextbookSummaries/README.md) -- [About Me](aboutme.md) -- [Contact](contactme.md) -- [Copyright](copyright.md)
 
+## Physics Tutorial:  Simple Projectile Motion
+
+January 19, 2021
+
+An in-depth look into one of the most common types of problems in introductory mechanics classes.  [See more.](Tutorials/Physics/SimpleProjectileMotion.md)
+
 ## Machine Learning Tutorial: Linear Regression
 
 November 25, 2020
