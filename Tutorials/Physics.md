@@ -4,6 +4,8 @@
 
 ## Introductory Mechanics
 
+* [Simple Projectile Motion](Physics/SimpleProjectileMotion.md)
+
 ## Introductory Electrocity and Magnetism 
 
 ## Classical Mechanics
