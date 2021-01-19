@@ -209,7 +209,7 @@ $$t_{tot} = \frac{\sqrt{v_i^2sin^2(\theta) - 2g(r_{y,f} - r_{y,i})} + v_isin(\th
 
 Note that for an object landing at the same y position it was launched from 
 
-$$t_{tot} = 2t_{max\ y} = \frac{2v_isin(\theta)}{g}
+$$t_{tot} = 2t_{max\ y} = \frac{2v_isin(\theta)}{g}$$
 
 ### Long Answer
 
