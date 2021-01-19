@@ -6,6 +6,12 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
+## Physics Tutorial:  Simple Projectile Motion
+
+January 19, 2021
+
+An in-depth look into one of the most common types of problems in introductory mechanics classes.  [See more.](Physics/SimpleProjectileMotion.md)
+
 ## Machine Learning Tutorial: Linear Regression
 
 November 25, 2020
